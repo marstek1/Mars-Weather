@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url('https://s3.envato.com/files/86ab0b9e-29e4-4706-8cb2-7ef8d7db9789/inline_image_preview.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+container {
+  background: rgba(0, 0, 0, 0.65);
+  padding: 30px;
+  max-width: 700px;
+  margin: 50px auto;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(255,255,255,0.3);
+}
+
+h1 {
+  text-align: center;
+}
+
+.weather-info {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.1em;
+  margin: 20px 0;
+}
+
+canvas {
+  margin-top: 20px;
+}
